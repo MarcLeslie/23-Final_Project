@@ -1,0 +1,288 @@
+* {
+  font-family: Ubuntu, sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+html,
+body {
+  height:0;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #ebebeb;
+  background-color: #2b3e50;
+  display: block;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 25px;
+  background:darkgreen;
+  color: whitesmoke
+}
+
+
+/* *************** Ids *************** */
+/*radio control */
+#control{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white
+}
+
+/* #map, */
+#map {
+  height: 550px;
+  min-height: 100%;
+  min-width: 100%;  
+  float: left;
+  position: relative;
+  margin: 0;
+}
+
+#map-holder{
+  height: 95%;
+}
+
+/* Top chart on right side of page */
+#barchart{
+  position: relative;
+  margin: 0px;
+  margin-top: 3px;
+} 
+
+/* Bottom chart on right side of page */
+#crimechart{
+  position: relative;
+  margin-top: 0px;
+} 
+
+/* left nav bar */
+#leftnav{
+  padding-left: 20px;
+  border-right-style:solid;
+  border-right-color: lightgrey;
+}
+
+/* image */
+img#bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(25px);
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+
+/* *************** classes *************** */
+.container-fluid {
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.fill
+{
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* legend */
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.legend {
+  padding: 6px 8px;
+  font: 12px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 25px;
+  color: #555;
+  width: auto; 
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+.legend ul {
+  padding: 0;
+  margin: 0;
+  clear: both;
+  list-style-type: none;
+}
+
+.legend li {
+  display: inline-block;
+  width: 50px;
+  height: 22px;
+}
+
+ /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
+ .wrapper {
+  position: relative;
+  min-height: 50%;
+  padding-bottom: 0px;
+  overflow: auto;
+}
+
+/* navbar */
+.navbar {
+  padding: 5px;
+  margin: 0;
+}
+
+.navbar-default{
+  background-color: #4e5d6c;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 9.5px 15px;
+  font-size: 19px;
+  line-height: 21px;
+  height: 40px;
+}
+
+/* This CSS styles the bear icon in the navbar */
+.navlion{
+  position: absolute;
+  bottom: 7px;
+  left: 110px;
+  width: 35px;
+  color: white;
+}
+
+/* The styles for the parallax */
+.hero {
+  position: center;
+  height: 0px;
+  padding: 0px;
+  margin: 0;
+  background: black;
+  /* image: url("static/images/Picture1.png"); */
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.hero h1 {
+  margin-top: 100px;
+  font-size: 0.1rem;
+  animation: title 2.2s forwards linear;
+}
+
+.hero p {
+  font-size: 2rem;
+  opacity: 0;
+  animation: subtitle 1.2s forwards linear;
+  animation-delay: 2.2s;
+}
+.hero h1 {
+  animation: smaller-title 1.2s forwards linear;
+}
+
+
+/* keyframe animations which will be used to animate the title */
+@keyframes title {
+from {
+  opacity: 0;
+}
+
+to {
+  font-size: 7.5rem;
+  opacity: 1;
+}
+}
+
+@keyframes smaller-title {
+from {
+  opacity: 0;
+}
+
+to {
+  font-size: 5.5rem;
+  opacity: 1;
+}
+}
+
+@keyframes subtitle {
+from {
+  opacity: 0;
+}
+
+to {
+  opacity: 1;
+}
+}
+
+ /* media queries which will only be activated at specific screen sizes */
+ @media (max-width: 800px) {
+  #table-area td {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 500px) {
+  #table-area thead {
+    display: none;
+  }
+} 
