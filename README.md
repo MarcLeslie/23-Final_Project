@@ -7,10 +7,10 @@
 <br>
 <b>Efforts:</b>
 
-Andrew: Exploritory and ML coding
+Andrew: Exploritory, Flow Chart, and ML coding
 
-Drew: Tableau
+Drew: Data Retrieval, Tableau
 
-Marc: ETL
+Marc: Data Retrieval, ETL
 
-Steve: Repo, Readme, and ML
+Steve: Repo, Readme, and ML Coding
