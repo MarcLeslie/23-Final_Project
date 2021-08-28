@@ -10,7 +10,7 @@
 <br>
 <b>Efforts:</b>
 
-Andrew: Exploritory, Flow Chart, and ML coding
+Andrew: Exploratory Data Analysis, Process Chart, and ML modeling
 
 Drew: Data Retrieval, Tableau
 
