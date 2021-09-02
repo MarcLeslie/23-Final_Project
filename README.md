@@ -19,6 +19,7 @@ Los Angeles Zip Codes/geo coordinates: https://data.lacounty.gov/GIS-Data/ZIP-Co
 Sacramento Zip Codes/geo coordinates:  https://www.unitedstateszipcodes.org/zip-code-database/ <br>
 Gallup Poll: https://news.gallup.com/poll/284135/percentage-americans-smoke-marijuana.aspx <br>
 Census Data: https://data.census.gov/cedsci/, Tables S0101, S1101, S1901, ACS 5-Year Estimates for 2019 <br>
+Sacramento Dispensaries: https://www.cityofsacramento.org/City-Manager/Divisions-Programs/Cannabis-Management/business-information/dispensaries
 <br>
 **ETL Census Data**<br>
 •	Removed zip codes that did not return data or missing significant amounts of data <br>
