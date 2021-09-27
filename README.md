@@ -2,8 +2,6 @@
 
 https://marcleslie.github.io/23-Final_Project/
 
- ![Flowchart](/Flowchart.png)
-
 ### Lion's Den
 
 <b>Members:</b> Andrew Bly, Drew Davis, Marc Leslie, and Steve Walker
