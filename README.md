@@ -1,5 +1,7 @@
 # 23-Final_Project
 
+![image](https://user-images.githubusercontent.com/79372665/134965387-7c7be636-d6db-4d2c-b820-dfd07e76f4e1.png)
+
 https://marcleslie.github.io/23-Final_Project/
 
 ### Lion's Den
